@@ -23,15 +23,21 @@
 #print(var, account_balance, client_name)
 #print(var)
 
-var = 1
+'''var = 1
 print(var)
 var = var + 1
 print(var)
 
 var = 100
 var = 200 + 300
-print(var)
+print(var)'''
 
+def message():
+    print("Ingresa un valor: ")
+
+print("Se comienza aquí.")
+message()
+print("Se termina aquí.")
 
 
 

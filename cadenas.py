@@ -33,44 +33,22 @@ from audioop import reverse
 print(list(nombre))
 print(nombre.upper())
 '''
-nombreCompleto = ["Francisco", "Raul", "Granados",  "Mendieta"]
+#nombreCompleto = ["Francisco", "Raul", "Granados",  "Mendieta"]
 
-print(" ".join(nombreCompleto))
+#print(" ".join(nombreCompleto))
 
-print()
-
-
+#print()
 
 
+cadena10 = "programacion"
+telefono = "1234567890"
+#print(cadena10)
 
+#for letra in cadena10:
+#    print(letra)
 
+print(len(cadena10))
+# regresa la cantidad de caracteres de la cadena 10
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for index in range(len(telefono)):
+    print(telefono[index], end='')
